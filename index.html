@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mini Project</title>
+    <link rel="stylesheet" href="./stylemini.css">
   </head>
   <body>
     <section>
       <nav>
-        <img src="./assets/FES.svg" alt="" />
+        <img src="./assets/FES.svg" class="logo" alt="" />
         <ul>
           <li><a href="#about">About</a></li>
           <li><a href="#discord">Discord</a></li>
@@ -18,14 +19,84 @@
       </nav>
       <header>
         <div>
-        <h1>Best Place to Learn Frontend</h1>
-        <p>Go from abosulte beginner to pro with a simplified process</p>
-        <button><a href="">Start Now</a></button>
-    </div>
-      <figure>
-        <img src="./assets/laptop.png" alt="Home Page Image">
-      </figure>
+          <h1>Best Place to Learn Frontend</h1>
+          <p>Go from abosulte beginner to pro with simplified process</p>
+          <button><a href="">Start Now</a></button>
+        </div>
+        <figure>
+          <img src="./assets/laptop.png" alt="Home Page Image" />
+        </figure>
+      </header>
     </section>
-</header>
+    <main>
+      <section id="about">
+        <h2>About</h2>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+            inventore aspernatur dicta ipsum quam, laborum fugit, ipsam ducimus
+            minima ad reiciendis. Neque excepturi possimus distinctio, facilis
+            accusantium doloribus magni obcaecati?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+            inventore aspernatur dicta ipsum quam, laborum fugit, ipsam ducimus
+            minima ad reiciendis. Neque excepturi possimus distinctio, facilis
+            accusantium doloribus magni obcaecati?
+          </p>
+        </div>
+        <figure>
+          <img src="./assets/about.jpg" alt="" />
+        </figure>
+      </section>
+      <section id="discord">
+        <h2>Discord</h2>
+        <figure>
+          <img src="./assets/discord.png" alt="" />
+        </figure>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum
+            et impedit iure corrupti quisquam ducimus consequatur ipsam est nam
+            blanditiis. Id consequatur nisi eos itaque ipsam incidunt velit
+            provident ratione!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum
+            et impedit iure corrupti quisquam ducimus consequatur ipsam est nam
+            blanditiis. Id consequatur nisi eos itaque ipsam incidunt velit
+            provident ratione!
+          </p>
+        </div>
+      </section>
+      <section id="contact">
+        <h2>Contact</h2>
+        <form action="">
+          <span>Email</span>
+          <input type="text" placeholder="leo@example.com" />
+        </form>
+        <form action="">
+          <span>Message</span>
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Nice Website, let's connect!"
+          ></textarea>
+        </form>
+        <button>Submit</button>
+      </section>
+    </main>
+    <footer>
+        <img src="./assets/FES.svg" alt="">
+        <div>
+            <a href="#about">About</a>
+            <a href="#discord">Discord</a>
+            <a href="#contact">Contact</a>
+            <a href="#courses">Courses</a>
+        </div>
+        <p>Copyright &copy; 2022 Frontend Simplified</p>
+    </footer>
   </body>
 </html>
