@@ -67,7 +67,138 @@ li{
 .row{
     width: 100%;
     max-width: 1300px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#about,
+#discord,
+#contact,
+footer{
+    padding: 48px 0;
+}
+
+/*
+
+About
+
+*/
+
+#about{
+    background-color: #f8ffdc;
+}
+
+h2{
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.section_description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_image-wrapper{
+    width: 40%;
+    padding: 0 24px;
+}
+
+img{
+    width: 100%;
+}
+
+.section_description-wrapper{
+    width: 60%;
+    padding: 0 24px;
+}
+
+.section_description-para{
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 24px;
+}
+
+/*
+
+Discord
+
+*/
+
+#discord{
+    background-color: #cefeff;
+}
+
+/*
+
+Contact
+
+*/
+
+#contact{
+    background-color: #dce9ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form{
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto; /* 0 on top/bottom, automatic left/right */ 
+}
+
+input,textarea{
+    margin-bottom: 24px;
+    font-size: 20px;
+    padding: 6px 12px;
+}
+
+/*
+
+Footer
+
+*/
+
+footer{
+    background-color: #aaf5ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_logo{
+    max-width: 480px;
+    margin-bottom: 16px;
+}
+
+.footer_links{
+    margin-bottom: 32px;
+}
+
+.footer_link{
+    padding: 0 16px;
+    text-decoration: none;
+}
+
+/* for Small Phones, Tablets, Large Phones you need to restyle the page to fit their screen */
+
+@media (max-width: 728px){
+    .row{
+        flex-direction: column;
+    }
+
+    .home_description{
+        margin-bottom: 24px;
+    }
+
+    h1{
+        text-align: center;
+        font-size: 60px;
+    }
 }
